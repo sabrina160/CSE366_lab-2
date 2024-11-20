@@ -58,9 +58,9 @@ A* Search
 - Path Cost Calculation: Each step contributes a uniform cost of 1.
 - Independent Environments: Each agent operates in a separate copy of the environment.
 # Code Structure
-- agent.py: Defines the Agent class for movement, task completion, and algorithm logic.
-- environment.py: Contains the Environment class for task and barrier generation.
-- run.py: The main script that integrates the environment, agents, and visualization.
+- agent_merge.py: Defines the Agent class for movement, task completion, and algorithm logic.
+- environment_merge.py: Contains the Environment class for task and barrier generation.
+- run_merge.py: The main script that integrates the environment, agents, and visualization.
 # Visualization Details
 # Grid
 - Tasks: Represented as red squares with task numbers.
@@ -75,11 +75,11 @@ Displays:
 - Cost of each completed task
 # Customization
 # Environment Parameters
-- Grid Size: Change the GRID_SIZE constant in run.py.
+- Grid Size: Change the GRID_SIZE constant in run_merge.py.
 - Number of Tasks: Modify num_tasks in the Environment initialization.
 - Number of Barriers: Adjust num_barriers in the Environment initialization.
 # Movement Speed
-- Modify MOVEMENT_DELAY in run.py to control the delay (in milliseconds) between agent movements.
+- Modify MOVEMENT_DELAY in run_merge.py to control the delay (in milliseconds) between agent movements.
 # Observed Differences in Path Costs Between UCS and A*
 - Uniform Cost Search (UCS):
   - Finds the optimal path by considering the actual cost of reaching each node.
