@@ -42,5 +42,42 @@ The goal is to simulate an environment where multiple tasks are distributed acro
 3. A Pygame window will open, displaying the grid environment. Click the Start button to begin the simulation.
 
 # Controls
-Start Simulation: Click the "Start" button to initiate the simulation.
-Exit Simulation: Click the close button on the Pygame window to exit.
+- Start Simulation: Click the "Start" button to initiate the simulation.
+- Exit Simulation: Click the close button on the Pygame window to exit.
+# Project Details
+# Task and Barrier Generation
+- Tasks are randomly distributed on the grid and assigned unique task numbers.
+- Barriers are placed randomly, ensuring no overlap with task locations.
+# Algorithms
+Uniform Cost Search (UCS)
+- Explores all possible paths to find the shortest path based on uniform movement cost.
+A* Search
+- Combines path cost with the Manhattan Distance heuristic to prioritize efficient paths.
+# Agent
+- Task Completion: Agents complete tasks sequentially based on the chosen algorithm.
+- Path Cost Calculation: Each step contributes a uniform cost of 1.
+- Independent Environments: Each agent operates in a separate copy of the environment.
+# Code Structure
+- agent.py: Defines the Agent class for movement, task completion, and algorithm logic.
+- environment.py: Contains the Environment class for task and barrier generation.
+- run.py: The main script that integrates the environment, agents, and visualization.
+# Visualization Details
+# Grid
+- Tasks: Represented as red squares with task numbers.
+- Barriers: Shown as black squares.
+- Agents: Represented as blue squares, moving across the grid.
+# Status Panel
+Displays:
+- Algorithm name (UCS or A*)
+- Number of tasks completed
+- Agent position
+- Total path cost
+- Cost of each completed task
+# Customization
+# Environment Parameters
+- Grid Size: Change the GRID_SIZE constant in run.py.
+- Number of Tasks: Modify num_tasks in the Environment initialization.
+- Number of Barriers: Adjust num_barriers in the Environment initialization.
+# Movement Speed
+- Modify MOVEMENT_DELAY in run.py to control the delay (in milliseconds) between agent movements.
+
