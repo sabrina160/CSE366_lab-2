@@ -3,9 +3,9 @@ This project visualizes task scheduling and pathfinding in a grid environment us
 # Objective
 The goal is to simulate an environment where multiple tasks are distributed across a grid with barriers, and agents optimize their path using UCS or A* algorithms. The objectives are:
 
-Compare Algorithms: Evaluate the efficiency of UCS and A* in completing tasks.
-Task Visualization: Provide a graphical representation of the grid, agents, tasks, and barriers.
-Real-Time Updates: Display dynamic status information, including completed tasks and path costs.
+-Compare Algorithms: Evaluate the efficiency of UCS and A* in completing tasks.
+-Task Visualization: Provide a graphical representation of the grid, agents, tasks, and barriers.
+-Real-Time Updates: Display dynamic status information, including completed tasks and path costs.
 # Features
 # Algorithms
 Uniform Cost Search (UCS): Finds the shortest path by cumulative cost without heuristics.
@@ -41,3 +41,6 @@ heapq
    python run.py
 3. A Pygame window will open, displaying the grid environment. Click the Start button to begin the simulation.
 
+# Controls
+Start Simulation: Click the "Start" button to initiate the simulation.
+Exit Simulation: Click the close button on the Pygame window to exit.
