@@ -82,4 +82,6 @@ Displays:
 - Modify MOVEMENT_DELAY in run.py to control the delay (in milliseconds) between agent movements.
 # Observed Differences in Path Costs Between UCS and A*
 - Uniform Cost Search (UCS):
- - Finds the optimal path by considering the actual cost of reaching each node.
+  - Finds the optimal path by considering the actual cost of reaching each node.
+- A Search:*
+  - Combines actual path cost with a heuristic (Manhattan distance) to estimate the total cost.
