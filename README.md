@@ -29,6 +29,7 @@ The goal is to simulate an environment where multiple tasks are distributed acro
    ```bash
      git clone https://github.com/sabrina160/CSE366_lab-2.git
      cd CSE366_lab-2
+     cd Sec-6-Fall2024-2021-3-60-252 -Lab-task-2
 2. Install the required libraries:
    ```bash
       pip install pygame
