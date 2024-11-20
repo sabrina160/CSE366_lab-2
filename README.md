@@ -80,4 +80,6 @@ Displays:
 - Number of Barriers: Adjust num_barriers in the Environment initialization.
 # Movement Speed
 - Modify MOVEMENT_DELAY in run.py to control the delay (in milliseconds) between agent movements.
-
+# Observed Differences in Path Costs Between UCS and A*
+- Uniform Cost Search (UCS):
+  - Finds the optimal path by considering the actual cost of reaching each node.
