@@ -83,14 +83,11 @@ Displays:
 # Observed Differences in Path Costs Between UCS and A*
 - Uniform Cost Search (UCS):
   - Finds the optimal path by considering the actual cost of reaching each node.
-- A Search:*
-  - Combines actual path cost with a heuristic (Manhattan distance) to estimate the total cost.
-Overall, A* is generally more efficient and performs better in terms of both speed and total path cost, especially in dynamic environments. However, UCS guarantees optimal paths without relying on heuristics.
-- **Uniform Cost Search (UCS):**
-  - Finds the optimal path by considering the actual cost of reaching each node.
 
-- **A* Search:**
-  - Combines actual path cost with a heuristic (Manhattan distance) to estimate the total cost.  
-  - Overall, A* is generally more efficient and performs better in terms of both speed and total path cost, especially in dynamic environments. 
-  - However, UCS guarantees optimal paths without relying on heuristics.
+- A* Search:
+  - Combines actual path cost with a heuristic (Manhattan distance) to estimate the total cost.
+
+Overall, A* is generally more efficient and performs better in terms of both speed and total path cost, especially in dynamic environments. However, UCS guarantees optimal paths without relying on heuristics.
+
+
 
