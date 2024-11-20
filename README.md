@@ -27,11 +27,19 @@ heapq
 # Installation
 1. Clone the repository:
    ```bash
-     git clone https://github.com/yourusername/your-repo-name.git
-     cd your-repo-name
+     git clone https://github.com/sabrina160/CSE366_lab-2.git
+     cd CSE366_lab-2
 2. Install the required libraries:
    ```bash
       pip install pygame
 # How to Run
-Navigate to the project folder:
+1. Navigate to the project folder:
+   ```bash
+     cd CSE366_lab-2
+2. Run the main simulation:
+   ```bash
+   python run.py
+
+ 
+
 
