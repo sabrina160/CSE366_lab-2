@@ -38,7 +38,7 @@ The goal is to simulate an environment where multiple tasks are distributed acro
      cd CSE366_lab-2
 2. Run the main simulation:
    ```bash
-   python run.py
+   python run_merge.py
 3. A Pygame window will open, displaying the grid environment. Click the Start button to begin the simulation.
 
 # Controls
