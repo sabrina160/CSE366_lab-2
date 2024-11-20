@@ -29,3 +29,9 @@ heapq
    ```bash
      git clone https://github.com/yourusername/your-repo-name.git
      cd your-repo-name
+2. Install the required libraries:
+   ```bash
+      pip install pygame
+# How to Run
+Navigate to the project folder:
+
