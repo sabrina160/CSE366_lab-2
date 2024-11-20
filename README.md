@@ -8,16 +8,16 @@ The goal is to simulate an environment where multiple tasks are distributed acro
 - Real-Time Updates: Display dynamic status information, including completed tasks and path costs.
 # Features
 # Algorithms
-Uniform Cost Search (UCS): Finds the shortest path by cumulative cost without heuristics.
-A*: Combines path cost with heuristic (Manhattan Distance) for better optimization.
+- Uniform Cost Search (UCS): Finds the shortest path by cumulative cost without heuristics.
+- A*: Combines path cost with heuristic (Manhattan Distance) for better optimization.
 # Simulation
-Dynamic Environment: Tasks, barriers, and agents are displayed in a grid-based environment.
-Real-Time Updates: Shows task completion status, agent paths, and cost metrics.
-Interactive Start: Users can start the simulation by clicking the "Start" button.
+- Dynamic Environment: Tasks, barriers, and agents are displayed in a grid-based environment.
+- Real-Time Updates: Shows task completion status, agent paths, and cost metrics.
+- Interactive Start: Users can start the simulation by clicking the "Start" button.
 # Visualization
-Grid Representation: Displays barriers, tasks, and agents in a structured grid.
-Agent Movement: Animates agents as they complete tasks.
-Status Panel: Shows algorithm names, completed tasks, positions, and total path costs.
+- Grid Representation: Displays barriers, tasks, and agents in a structured grid.
+- Agent Movement: Animates agents as they complete tasks.
+- Status Panel: Shows algorithm names, completed tasks, positions, and total path costs.
 # Setup Instructions
 # Prerequisites
 Python 3.x
