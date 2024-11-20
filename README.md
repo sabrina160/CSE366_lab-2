@@ -39,7 +39,5 @@ heapq
 2. Run the main simulation:
    ```bash
    python run.py
-
- 
-
+3. A Pygame window will open, displaying the grid environment. Click the Start button to begin the simulation.
 
