@@ -3,7 +3,7 @@ This project visualizes task scheduling and pathfinding in a grid environment us
 # Objective
 The goal is to simulate an environment where multiple tasks are distributed across a grid with barriers, and agents optimize their path using UCS or A* algorithms. The objectives are:
 
-Compare Algorithms: Evaluate the efficiency of UCS and A* in completing tasks.
+ o Compare Algorithms: Evaluate the efficiency of UCS and A* in completing tasks.
 Task Visualization: Provide a graphical representation of the grid, agents, tasks, and barriers.
 Real-Time Updates: Display dynamic status information, including completed tasks and path costs.
 # Features
