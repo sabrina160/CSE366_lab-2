@@ -20,7 +20,7 @@ The goal is to simulate an environment where multiple tasks are distributed acro
 - Status Panel: Shows algorithm names, completed tasks, positions, and total path costs.
 # Setup Instructions
 # Prerequisites
-- Python 3.x
+- Python 3.13.0
 # Libraries:
 - pygame
 - heapq
